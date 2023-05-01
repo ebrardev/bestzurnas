@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-      <a href="/"><span className="logo-text">BestZurna</span></a>
+        <h1>BestZurnas</h1>
       </div>
       <div className="navbar-right">
         <a href="https://github.com/ebrardev"><AiOutlineGithub size={30}/></a>
