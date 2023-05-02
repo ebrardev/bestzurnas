@@ -47,7 +47,21 @@ const productData = [
         "city": "Ankara",
         "price": 1750,
         "image": "https://picsum.photos/id/1003/200/300"
-      }
+      },
+      {
+        "id": 8,
+        "name": "Koltuk",
+        "city": "İzmir",
+        "price": 1250,
+        "image": "https://picsum.photos/id/1015/200/300"
+      },
+      {
+        "id": 9,
+        "name": "Masa",
+        "city": "Bursa",
+        "price": 750,
+        "image": "https://picsum.photos/id/102/200/300"
+      },
 ]
 
 export default productData;

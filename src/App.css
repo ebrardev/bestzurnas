@@ -12,12 +12,12 @@ body {
 
 .card-grid {
   display:grid;
-  grid-template-columns: 350px 350px 350px 350px;
+  grid-template-columns: 450px 450px 450px;
   justify-content: center;
 }
 .card-container{
   display: flex;
   justify-content: space-evenly;
-  margin-top: 5rem;
+  margin-top: 10rem;
 
 }
