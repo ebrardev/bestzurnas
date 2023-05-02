@@ -26,7 +26,7 @@ export default function App() {
       <div className="card-container">
         <div className='card-grid'>
           {products.filter((product) =>
-            product.city.toLowerCase().includes(searchTerm.toLowerCase()) || product.name.toLowerCase().includes(searchTerm.toLowerCase())
+            product.city.toLowerCase().includes(searchTerm.toLowerCase()) || product.name.toLowerCase().includes(searchTerm.toLowerCase()) || product.price.toString().includes(searchTerm.toString())
           ).map((product) => (
             <Card
               key={product.id}
