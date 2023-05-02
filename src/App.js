@@ -4,27 +4,25 @@ import './App.css';
 import Card from './components/Card/Card';
 import Navbar from './components/Navbar/Navbar';
 import axios from 'axios';
+import products from './product'
 
-const App= () =>{
-  const [products,setProducts] = useState([]);
-  useEffect(()=>{
-    axios.get('./db.json').then((response)=>{
-      setProducts(response.data.products);
-  })
-  .catch(error => {
-    console.log('Error fetching products', error);
-  });
-}, [])
-
-
-return (
-  <div className="App">
-    <Navbar />
-    {products.map(product => (
-      <Card key={product.id} data={product} />
-    ))}
-  </div>
-);
-};
-
-export default App;
+export default function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <div className="card-container">
+        <div className='card-grid'>
+      {products.map(product =>(
+        <Card
+          key={product.id}
+          name={product.name}
+          city={product.city}
+          price={product.price}
+          image={product.image}
+        />
+      ))}
+    </div>
+    </div>
+    </div>
+  );
+}
