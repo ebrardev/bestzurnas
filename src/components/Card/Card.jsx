@@ -8,7 +8,7 @@ const Card = (data) => {
     <div className="card-info">
       <h2 className="card-name">{data.name}</h2>
       <p className="card-city">{data.city}</p>
-      <p className="card-price">₺{data.price}</p>
+      <p className="card-price">{data.price}₺</p>
     </div>
   </div>
   )

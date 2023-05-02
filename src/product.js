@@ -1,66 +1,66 @@
 const productData = [
   {
       "id": 1,
-      "name": "Koltuk",
-      "city": "İstanbul",
-      "price": 1500,
-      "image": "https://picsum.photos/id/1018/200/300"
+      "name": "Mansuroğlu Döner",
+      "city": "Mersin",
+      "price": 65,
+      "image": "https://cdn.discordapp.com/attachments/860256092541157380/1102918514639130684/zurna.jpg"
     },
     {
       "id": 2,
-      "name": "Masa",
+      "name": "326 Antakya dürüm Esat",
       "city": "Ankara",
-      "price": 750,
-      "image": "https://picsum.photos/id/1003/200/300"
+      "price": 110,
+      "image": "https://cdn.discordapp.com/attachments/860256092541157380/1102918514639130684/zurna.jpg"
     },
     {
       "id": 3,
-      "name": "Sandalye",
-      "city": "İzmir",
-      "price": 250,
-      "image": "https://picsum.photos/id/1015/200/300"
+      "name": "By Antakyalı",
+      "city": "Istanbul",
+      "price": 100,
+      "image": "https://cdn.discordapp.com/attachments/860256092541157380/1102918514639130684/zurna.jpg"
     },
     {
       "id": 4,
-      "name": "Komodin",
-      "city": "Bursa",
-      "price": 450,
-      "image": "https://picsum.photos/id/102/200/300"
+      "name": "Zaka  döner",
+      "city": "Izmir",
+      "price": 83,
+      "image": "https://cdn.discordapp.com/attachments/860256092541157380/1102918514639130684/zurna.jpg"
     },
     {
       "id": 5,
-      "name": "Dolap",
-      "city": "Antalya",
-      "price": 1250,
-      "image": "https://picsum.photos/id/1019/200/300"
+      "name": "Benim döner",
+      "city": "Mersin",
+      "price": 72,
+      "image": "https://cdn.discordapp.com/attachments/860256092541157380/1102918514639130684/zurna.jpg"
       },
       {
       "id": 6,
-      "name": "Kanepe",
-      "city": "İstanbul",
-      "price": 2500,
-      "image": "https://picsum.photos/id/1018/200/300"
+      "name": "Etibeyaz Döner",
+      "city": "Istanbul",
+      "price": 110,
+      "image": "https://cdn.discordapp.com/attachments/860256092541157380/1102918514639130684/zurna.jpg"
       },
       {
       "id": 7,
-      "name": "Yatak",
+      "name": "Hosta Döner",
       "city": "Ankara",
-      "price": 1750,
-      "image": "https://picsum.photos/id/1003/200/300"
+      "price": 110,
+      "image": "https://cdn.discordapp.com/attachments/860256092541157380/1102918514639130684/zurna.jpg"
     },
     {
       "id": 8,
-      "name": "Koltuk",
-      "city": "İzmir",
-      "price": 1250,
-      "image": "https://picsum.photos/id/1015/200/300"
+      "name": "Lezzy fast food",
+      "city": "Izmir",
+      "price": 95,
+      "image": "https://cdn.discordapp.com/attachments/860256092541157380/1102918514639130684/zurna.jpg"
     },
     {
       "id": 9,
-      "name": "Masa",
-      "city": "Bursa",
-      "price": 750,
-      "image": "https://picsum.photos/id/102/200/300"
+      "name": "Rey dürüm",
+      "city": "Ankara",
+      "price": 103,
+      "image": "https://cdn.discordapp.com/attachments/860256092541157380/1102918514639130684/zurna.jpg"
     },
 ]
 

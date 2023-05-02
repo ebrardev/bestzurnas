@@ -1,28 +1,45 @@
-import {useState, useEffect} from 'react';
-
 import './App.css';
+import React, { useState } from 'react';
 import Card from './components/Card/Card';
 import Navbar from './components/Navbar/Navbar';
 import axios from 'axios';
-import products from './product'
+import products from './product';
 
 export default function App() {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
   return (
     <div className="App">
       <Navbar />
+      <div className="search-container">
+        <input
+          type="text"
+          placeholder="Search..."
+          value={searchTerm}
+          onChange={handleSearch}
+        />
+      </div>
       <div className="card-container">
         <div className='card-grid'>
-      {products.map(product =>(
-        <Card
-          key={product.id}
-          name={product.name}
-          city={product.city}
-          price={product.price}
-          image={product.image}
-        />
-      ))}
-    </div>
-    </div>
+          {products.filter((product) =>
+            product.city.toLowerCase().includes(searchTerm.toLowerCase())
+          ).map((product) => (
+            <Card
+              key={product.id}
+              name={product.name}
+              city={product.city}
+              price={product.price}
+              image={product.image}
+            />
+          ))}
+        </div>
+      </div>
+    
     </div>
   );
 }
+
