@@ -62,6 +62,13 @@ const productData = [
       "price": 103,
       "image": "https://cdn.discordapp.com/attachments/860256092541157380/1102918514639130684/zurna.jpg"
     },
+    {
+      "id": 10,
+      "name": "Zater döner",
+      "city": "Denizli",
+      "price": 78,
+      "image": "https://cdn.discordapp.com/attachments/860256092541157380/1102918514639130684/zurna.jpg"
+    },
 ]
 
 export default productData;
