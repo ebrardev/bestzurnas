@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from 'react';
 import Card from './components/Card/Card';
 import Navbar from './components/Navbar/Navbar';
-import axios from 'axios';
+
 import products from './product';
 
 export default function App() {
